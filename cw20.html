@@ -7,12 +7,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
   </head>
   <body style="background-color: #000000; color: #FF8904 ;">
+    <script>
+function copiarTexto() {
+  // Obtiene el texto del elemento
+  <h2><p>AUSD<br /><br />
+    terra1ug772wjenmm8mphzq0pvgvxrkgd9axngv7swrvrt3dj35sn9fmls626vml
+    </p><br />
+  var texto = document.getElementById("terra1ug772wjenmm8mphzq0pvgvxrkgd9axngv7swrvrt3dj35sn9fmls626vml").innerText;
+  // Usa la API del portapapeles
+  navigator.clipboard.writeText(texto).then(() => {
+    alert("Texto copiado: " + texto);
+  });
+}
+</script>
     <div align"center">
       <h1>ADD WALLET</h1>
     </div>
-    <h2><p>AUSD<br /><br />
-      terra1ug772wjenmm8mphzq0pvgvxrkgd9axngv7swrvrt3dj35sn9fmls626vml
-    </p><br />
+    
       <p>BITCOIN CLASSIC<br /><br />
         terra17eskmck3fuh4yt2hvh45j9v7hteeu5mm9ry3mjx6sr947rcsajcqvf2vxt
     </p><br />
